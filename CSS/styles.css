@@ -1,10 +1,29 @@
 .sidebar{
 background-color: orange;
+float:left;
+display: flex;
+font-size: 15px;
+flex-direction: column;
 }
-
 .top{
   font-weight: bold;
   font-style: italic;
   font-family: sans-serif;
-
+  text-align: center;
+}
+.column{
+  font-size: 15px;
+  font-display: block;
+  background-color: green;
+  float: right;
+  display: flex;
+}
+.content{
+  font: cursive;
+  color: green;
+  background-color: transparent;
+  text-align: center;
+}
+h1{
+  text-align: center;
 }
